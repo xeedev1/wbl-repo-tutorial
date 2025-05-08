@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Palette Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Color Palette Generator</h1>
+      <p class="subtitle">Create beautiful color combinations for your next project</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="section">
+      <div class="section-header">
+        <h2>Your Custom Palette</h2>
+        <div class="button-group">
+          <button id="generateBtn" class="btn-primary">Generate New Palette</button>
+          <button id="saveBtn" class="btn-secondary">Save Palette</button>
+        </div>
+      </div>
+      
+      <div id="colorPalette" class="color-grid"></div>
+    </section>
+
+  
+
+    <section class="section">
+      <h2>Saved Palettes</h2>
+      <div id="savedPalettes">
+        <p class="no-saved" id="noSavedMessage">No saved palettes yet. Generate and save one!</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>Created for GitHub Tutorial | <span class="footer-highlight">HTML + CSS + JavaScript</span></p>
+      <p class="info-text">Click any color to copy its hex code to clipboard</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
